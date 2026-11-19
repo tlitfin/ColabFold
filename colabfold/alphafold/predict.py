@@ -12,7 +12,8 @@ import numpy as np
 from alphafold.common import protein
 from alphafold.data import pipeline_multimer
 
-from colabfold.alphafold import extra_ptm, ipsae
+from colabfold import ipsae
+from colabfold.alphafold import extra_ptm
 from colabfold.input import pdb_to_string
 from colabfold.backend import metrics_line
 from colabfold.relax import relax_me
